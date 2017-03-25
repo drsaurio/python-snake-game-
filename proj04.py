@@ -1,7 +1,5 @@
 # Project 4: Pygame
-# Created by: Pedro C.Palomino and Jenniffer Kwiatkowski
-# CIT 125 - PYTHON PROGRAMMING- FALL 2016
-
+# This version is created by: Pedro C.Palomino 
 
 import random, math, pygame
 from pygame.locals import *
@@ -57,7 +55,7 @@ def main():
         pygame.init()
         clock = pygame.time.Clock()
         screen = pygame.display.set_mode(WINSIZE)
-        pygame.display.set_caption("Snaky - © 2016  Created by Pedro C. Palomino and Jenniffer Kwiatkowski")
+        pygame.display.set_caption("Snaky - © 2016  Created by Pedro C. Palomino")
         screen.fill(BLACK)
         #adding some music 
 
