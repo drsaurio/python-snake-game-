@@ -272,7 +272,7 @@ def main():
             text_surface = font.render("Press Q to quit or N to play again", True, BLUE)
             screen.blit(text_surface, (260,400))
             font = pygame.font.SysFont("arial", 20)
-            text_surface = font.render("Created by Pedro C. Palomino and Jenniffer Kwiatkowski", True, BLUE)
+            text_surface = font.render("Created by Pedro C. Palomino", True, BLUE)
             screen.blit(text_surface, (190,450))
 
             pygame.display.flip()
